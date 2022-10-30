@@ -1,0 +1,23 @@
+{
+  "baseBranch": "origin/main",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "dist/**", "build/**"],
+      "outputMode": "new-only"
+    },
+    "db#build": {
+      "cache": false
+    },
+    "test": {
+      "dependsOn": [],
+      "outputs": []
+    },
+    "lint": {
+      "outputs": []
+    },
+    "dev": {
+      "dependsOn": ["^dev"]
+    }
+  }
+}

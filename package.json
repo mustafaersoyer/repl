@@ -1,0 +1,34 @@
+{
+  "version": "2.8.2",
+  "name": "autorepl-os",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "docker:up": "docker compose -f docker-compose.dev.yml up -d",
+    "docker:nuke": "docker compose -f docker-compose.dev.yml down --volumes --remove-orphans",
+    "dev": "pnpm docker:up && NEXT_PUBLIC_E2E_TEST=false turbo run dev --filter=builder... --filter=viewer... --parallel --no-cache",
+    "dev:mocking": "pnpm docker:up && NEXT_PUBLIC_E2E_TEST=true turbo run dev --filter=builder... --filter=viewer... --parallel --no-cache",
+    "build": "pnpm docker:up && turbo run build",
+    "build:builder": "turbo run build --filter=builder... && ENVSH_ENV=./apps/builder/.env.docker ENVSH_OUTPUT=./apps/builder/public/__env.js bash env.sh",
+    "build:viewer": "turbo run build --filter=viewer... && ENVSH_ENV=./apps/viewer/.env.docker ENVSH_OUTPUT=./apps/viewer/public/__env.js bash env.sh",
+    "build:landing-page": "turbo run build --filter=landing-page... && ENVSH_ENV=./apps/landing-page/.env.docker ENVSH_OUTPUT=./apps/landing-page/public/__env.js bash env.sh",
+    "test:builder": "cd apps/builder && pnpm test",
+    "lint": "turbo run lint",
+    "db:migrate": "cd packages/db && pnpm migration:deploy",
+    "generate-change-log": "pnpx gitmoji-changelog"
+  },
+  "devDependencies": {
+    "cz-emoji": "1.3.2-canary.2",
+    "turbo": "1.5.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-emoji"
+    }
+  },
+  "packageManager": "pnpm@7.12.2"
+}
