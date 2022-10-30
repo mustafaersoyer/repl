@@ -1,0 +1,17 @@
+{
+  "name": "wordpress",
+  "version": "2.1.9",
+  "main": "index.js",
+  "repository": "https://github.com/baptisteArno/typebot.io",
+  "author": "baptisteArno",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "@prettier/plugin-php": "0.19.1",
+    "prettier": "2.7.1"
+  },
+  "scripts": {
+    "deploy": "pnpm copy && pnpm commit",
+    "copy": "svn copy ./trunk ./tags/2.1.9",
+    "commit": "svn ci -m 'Fix standard embed when window loaded'"
+  }
+}

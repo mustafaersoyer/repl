@@ -1,0 +1,45 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ENVSH_ENV=.env.local bash ../../env.sh next dev -p 3002",
+    "start": "next start",
+    "build": "next build",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@chakra-ui/icon": "3.0.11",
+    "@chakra-ui/react": "2.3.5",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
+    "aos": "2.3.4",
+    "bot-engine": "workspace:*",
+    "focus-visible": "5.2.0",
+    "framer-motion": "7.5.3",
+    "models": "workspace:*",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "utils": "workspace:*",
+    "db": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/core": "7.19.3",
+    "@chakra-ui/styled-system": "2.3.4",
+    "@next/bundle-analyzer": "12.3.1",
+    "@types/aos": "3.0.4",
+    "@types/node": "18.11.0",
+    "@types/react": "18.0.21",
+    "@typescript-eslint/eslint-plugin": "5.40.0",
+    "@typescript-eslint/parser": "5.40.0",
+    "autoprefixer": "10.4.12",
+    "cross-env": "7.0.3",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-plugin-react": "7.31.10",
+    "next-transpile-modules": "9.1.0",
+    "postcss": "8.4.18",
+    "prettier": "2.7.1",
+    "typescript": "4.8.4"
+  }
+}
