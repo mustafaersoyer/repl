@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Iframe
 
-You can easily get your typebot iframe code by clicking on the "Iframe" button in the "Share" tab of your typebot.
+You can easily get your bot iframe code by clicking on the "Iframe" button in the "Share" tab of your bot.
 
 <img src="/img/embeddings/iframe/iframe-preview.png" width="600" alt="Iframe preview"/>
 

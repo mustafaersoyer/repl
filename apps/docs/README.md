@@ -1,6 +1,6 @@
 # Typebot docs
 
-This is the source code of Typebot's documentation located at https://docs.typebot.io
+This is the source code of AutoRepl's documentation located at https://docs.autorepl.com
 
 # Contribute
 

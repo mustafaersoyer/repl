@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # WordPress
 
-Typebot has a native [WordPress plug-in](https://wordpress.org/plugins/typebot/) that helps you embed typebots in your WordPress site.
+AutoRepl has a native [WordPress plug-in](https://wordpress.org/plugins/autorepl/) that helps you embed bots in your WordPress site.
 
-Of course, before using it, you need to create and publish your first typebot.
+Of course, before using it, you need to create and publish your first bot.
 
 <img src="/img/embeddings/wordpress-preview.png" width="600" alt="WP plugin preview"/>
 
@@ -26,9 +26,9 @@ Here is how it looks like:
 
 `width`, `height`, `background-color` and `url` are optionnal.
 
-You should use `url` parameter only if you need to embed different typebots as containers on your website.
+You should use `url` parameter only if you need to embed different bots as containers on your website.
 
-If your typebot appears to have a small height like this:
+If your bot appears to have a small height like this:
 <img src="/img/embeddings/wp-small-container.png" width="600" alt="WP plugin preview"/>
 
 you need to set a fixed `height` in pixel (`500px` or `600px` is usually a great number).
@@ -39,11 +39,11 @@ Fields are self explanatory. To open the popup or the bubble when a button in yo
 
 #### Pages to include separated by a comma
 
-With this field, you can tell the plugin to include the typebot only on specific pages.
+With this field, you can tell the plugin to include the bot only on specific pages.
 
 Example:
 
-- `/my-page,/other-page/*`: the typebot will appear on these pages: `/my-page`, `/other-page`, `/other-page/sub/path`, `/other-page/other/path`
+- `/my-page,/other-page/*`: the bot will appear on these pages: `/my-page`, `/other-page`, `/other-page/sub/path`, `/other-page/other/path`
 
 ## Advanced setup
 
@@ -73,19 +73,19 @@ Here is an example for a bubble config:
 
 ## Personalize user experience
 
-You can leverage the [hidden variables](/editor/variables#hidden-variables) and inject your user information directly into your typebot so that the experience is entirely customized to your user.
+You can leverage the [hidden variables](/editor/variables#hidden-variables) and inject your user information directly into your bot so that the experience is entirely customized to your user.
 
-Here are the available variables from WordPress, make sure to create them in your typebot's variables dropdown:
+Here are the available variables from WordPress, make sure to create them in your bot's variables dropdown:
 
 <img src="/img/embeddings/wp-variables.png" alt="WP predefined variables" width="400px"/>
 
-You can use these variables anywhere on your typebot. For more informations, check out the [Hidden variables doc](https://docs.typebot.io/editor/variables/hidden-variables)
+You can use these variables anywhere on your bot. For more informations, check out the [Hidden variables doc](https://docs.autorepl.com/editor/variables/hidden-variables)
 
-## Your typebot isn't showing?
+## Your bot isn't showing?
 
 ### You have a cache plugin
 
-Plugins like WP Rocket prevent Typebot to work.
+Plugins like WP Rocket prevent AutoRepl to work.
 
 For WP Rocket:
 
@@ -98,8 +98,8 @@ For WP Rocket:
 
 ### You have plugin that adds `defer` attribute to external scripts
 
-You need to add an exception for Typebot in the corresponding plugin config.
+You need to add an exception for AutoRepl in the corresponding plugin config.
 
 ### Still not working
 
-Contact me on the application using the typebot at the bottom right corner
+Contact me on the application using the bot at the bottom right corner

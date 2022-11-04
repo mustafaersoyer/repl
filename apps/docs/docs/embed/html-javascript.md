@@ -32,7 +32,7 @@ Here is an example:
 <script src="https://unpkg.com/typebot-js@2.2"></script>
 <script>
   var typebotCommands = Typebot.initPopup({
-    url: 'https://viewer.typebot.io/my-typebot',
+    url: 'https://bot.autorepl.com/my-typebot',
     delay: 3000,
   })
 </script>
@@ -68,7 +68,7 @@ Here is an example:
 <script src="https://unpkg.com/typebot-js@2.2"></script>
 <script>
   var typebotCommands = Typebot.initPopup({
-    url: 'https://viewer.typebot.io/my-typebot',
+    url: 'https://bot.autorepl.com/my-typebot',
     delay: 3000,
   })
 </script>
@@ -116,7 +116,7 @@ You can add hidden variable values in your embed code by adding the `hiddenVaria
 
 ```js
 Typebot.initContainer('typebot-container', {
-  url: 'https://viewer.typebot.io/my-typebot',
+  url: 'https://bot.autorepl.com/my-typebot',
   hiddenVariables: {
     'Current URL': window.location.href,
     'User name': 'John Doe',

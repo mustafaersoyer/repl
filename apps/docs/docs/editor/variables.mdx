@@ -22,7 +22,7 @@ By default, any declared variables in the bot can be prefilled by passing initia
 
 Let's say I have a variable named "Email" somewhere in my bot. This variable can be passed as a URL parameter. If I'm launching my bot using this URL:
 
-`https://typebot.io/my-bot?Email=test@test.com`
+`https://autorepl.com/my-bot?Email=test@test.com`
 
 Then if an input step is saving the answer into this variable, it will be first prefilled with this initial value. It can greatly improve the user experience if you already have data about him.
 
@@ -30,7 +30,7 @@ Prefilling variables using the embed library is even easier. You need to add an 
 
 ```js
 Typebot.initBubble({
-  url: `https://viewer.typebot.io/typebot-support`,
+  url: `https://bot.autorepl.com/autorepl-support`,
   hiddenVariables: {
     'User ID': '123',
     'First name': 'John',

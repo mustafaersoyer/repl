@@ -40,16 +40,16 @@ export const WordpressModal = ({
             <ListItem>
               Install{' '}
               <Link
-                href="https://wordpress.org/plugins/typebot/"
+                href="https://wordpress.org/plugins/autorepl/"
                 isExternal
                 color="blue.500"
               >
-                the official Typebot WordPress plugin
+                the official AutoRepl WordPress plugin
                 <ExternalLinkIcon mx="2px" />
               </Link>
             </ListItem>
             <ListItem>
-              Copy your typebot URL
+              Copy your bot URL
               <InputGroup size="md" mt={2}>
                 <Input
                   pr="4.5rem"

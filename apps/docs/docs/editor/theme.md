@@ -1,6 +1,6 @@
 # Theme
 
-The theme tab allows you to customize the look of your typebot.
+The theme tab allows you to customize the look of your bot.
 
 ## Custom CSS
 
