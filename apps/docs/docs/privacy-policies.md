@@ -20,7 +20,7 @@ We keep the data associated with your account until you delete the information f
 
 ## How can I delete my account?
 
-You can delete your account and all its associated data at any time by sending an email to [getautorepl@gmail.com](mailto:getautorepl@gmail.com).
+You can delete your account and all its associated data at any time by sending an email to [info@autorepl.com](mailto:info@autorepl.com).
 
 ## What Cookies does AutoRepl use?
 

@@ -11,4 +11,4 @@ This is the AutoRepl documentation. It's a great place to find most answers. Ple
 
 This documentation is a work in progress.
 
-If you can't find what you're looking for, don't hesitate to contact me directly on the web app or at getautorepl@gmail.com
+If you can't find what you're looking for, don't hesitate to contact me directly on the web app or at info@autorepl.com
