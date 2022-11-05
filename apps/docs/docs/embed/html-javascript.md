@@ -92,7 +92,7 @@ You can bind this command on a button element, for example:
 </button>
 ```
 
-### Open or close the typebot
+### Open or close the bot
 
 You can use these commands:
 

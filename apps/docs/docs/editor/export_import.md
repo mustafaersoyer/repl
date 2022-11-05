@@ -1,6 +1,6 @@
 # Export / Import a typebot
 
-A typebot flow can be exported to a JSON file using the menu button at the top right of the builder:
+A bot flow can be exported to a JSON file using the menu button at the top right of the builder:
 
 <img
   src="/img/export_flow.png"

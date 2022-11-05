@@ -63,7 +63,7 @@ export const GeneralSettingsForm = ({
         onClick={isWorkspaceFreePlan ? onOpen : undefined}
       >
         <FormLabel htmlFor="branding" mb="0">
-          Typebot.io branding{' '}
+          AutoRepl.com branding{' '}
           {isWorkspaceFreePlan && <LockTag plan={Plan.STARTER} />}
         </FormLabel>
         <Switch

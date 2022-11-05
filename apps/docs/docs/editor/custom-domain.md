@@ -1,6 +1,6 @@
 # Add a custom domain
 
-You can bind a custom domain to your typebot in the "Share" tab.
+You can bind a custom domain to your bot in the "Share" tab.
 
 <img
   src="/img/custom-domain/add-domain.png"
