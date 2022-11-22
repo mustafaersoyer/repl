@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.webp',
   organizationName: 'AutoRepl', // Usually your GitHub org/user name.
   themeConfig: {
     navbar: {

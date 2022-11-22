@@ -10,7 +10,7 @@
   "scripts": {
     "docker:up": "docker compose -f docker-compose.dev.yml up -d",
     "docker:nuke": "docker compose -f docker-compose.dev.yml down --volumes --remove-orphans",
-    "dev": "pnpm docker:up && NEXT_PUBLIC_E2E_TEST=false turbo run dev --filter=builder... --filter=viewer... --parallel --no-cache",
+    "dev": "pnpm docker:up &&  turbo run dev --filter=builder... --filter=viewer... --parallel --no-cache",
     "dev:mocking": "pnpm docker:up && NEXT_PUBLIC_E2E_TEST=true turbo run dev --filter=builder... --filter=viewer... --parallel --no-cache",
     "build": "pnpm docker:up && turbo run build",
     "build:builder": "turbo run build --filter=builder... && ENVSH_ENV=./apps/builder/.env.docker ENVSH_OUTPUT=./apps/builder/public/__env.js bash env.sh",
