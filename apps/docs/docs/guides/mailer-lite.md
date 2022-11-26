@@ -7,7 +7,7 @@
 
 3. Configure the Webhook step with the following information:
 
-  <img src="/img/guides/mailer-lite/2.pwebpng" width="400" alt="Iframe preview"/>
+  <img src="/img/guides/mailer-lite/2.webp" width="400" alt="Iframe preview"/>
   
   For more info on what fields you can add: https://developers.mailerlite.com/reference/create-a-subscriber
 
