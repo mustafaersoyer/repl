@@ -18,7 +18,7 @@ In your workspace, click on the **Settings & Members** button and then the **Mem
 
 You will see your Workspace members list:
 
-<img src="/img/workspace/members.png" alt="Members list" />
+<img src="/img/workspace/members.webp" alt="Members list" />
 
 There you can invite new admins or members and set existing members as admins.
 
@@ -28,7 +28,7 @@ In your bot, click on the **Invite users to collaborate** icon button.
 
 You will see the guests list and who has access to this particular bot.
 
-<img src="/img/workspace/guests.png" alt="Guests list" />
+<img src="/img/workspace/guests.webp" alt="Guests list" />
 
 Guests can either:
 

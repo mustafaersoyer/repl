@@ -212,13 +212,13 @@
           </div>
           <?php if (esc_attr(get_option('embed_type')) === 'container'): ?>
           <div class="notification is-link" style="margin-bottom: 1rem;">
-            You can now place your typebot container anywhere in your site using [typebot] shortcode.
+            You can now place your bot container anywhere in your site using [autorepl] shortcode.
             <br><br>
             Your page templating system probably has a "Shortcode" element (if not, use a text element) where you can paste:
-            <pre>[typebot]</pre>
+            <pre>[autorepl]</pre>
             <br>
-            Optionnaly, you can adjust `width`, `height`, `background-color` and/or `url` if you want to embed multiple typebots:
-            <pre>[typebot width="100%" height="500px" background-color="#F7F8FF" url="https://my.typebot.io"]</pre>
+            Optionnaly, you can adjust `width`, `height`, `background-color` and/or `url` if you want to embed multiple bots:
+            <pre>[autorepl width="100%" height="500px" background-color="#F7F8FF" url="https://bot.autorepl.com"]</pre>
           </div>
         <?php endif; ?>
         </div>

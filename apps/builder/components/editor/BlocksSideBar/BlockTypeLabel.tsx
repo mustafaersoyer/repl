@@ -72,7 +72,7 @@ export const BlockTypeLabel = ({ type }: Props): JSX.Element => {
       )
     case LogicBlockType.TYPEBOT_LINK:
       return (
-        <Tooltip label="Link to another of your typebots">
+        <Tooltip label="Link to another of your bot">
           <Text>Typebot</Text>
         </Tooltip>
       )

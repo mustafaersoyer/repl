@@ -9,7 +9,7 @@ The Pabbly Connect integration block allows you to trigger a workflow at a given
 1. Insert a Pabbly Connect block where you want to trigger the workflow:
 
 <img
-    src="/img/blocks/integrations/pabbly-connect.png"
+    src="/img/blocks/integrations/pabbly-connect.webp"
     width="600"
     alt="Pabbly Connect block"
   />

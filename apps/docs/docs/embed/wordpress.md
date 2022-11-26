@@ -8,7 +8,7 @@ AutoRepl has a native [WordPress plug-in](https://wordpress.org/plugins/autorepl
 
 Of course, before using it, you need to create and publish your first bot.
 
-<img src="/img/embeddings/wordpress-preview.png" width="600" alt="WP plugin preview"/>
+<img src="/img/embeddings/wordpress-preview.jpg" width="600" alt="WP plugin preview"/>
 
 You can either choose to configurate an "easy setup" or "advanced setup".
 
@@ -16,12 +16,12 @@ You can either choose to configurate an "easy setup" or "advanced setup".
 
 ### Container
 
-When choosing "container" and click on "Save" you can then use a typebot shortcode in your page builder. [Here is a complete tutorial on how to insert a shortcode](https://www.wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/).
+When choosing "container" and click on "Save" you can then use a autorepl shortcode in your page builder. [Here is a complete tutorial on how to insert a shortcode](https://www.wpbeginner.com/wp-tutorials/how-to-add-a-shortcode-in-wordpress/).
 
 Here is how it looks like:
 
 ```text
-[typebot width="100%" height="500px" background-color="#F7F8FF"]
+[autorepl width="100%" height="500px" background-color="#F7F8FF"]
 ```
 
 `width`, `height`, `background-color` and `url` are optionnal.
@@ -29,7 +29,7 @@ Here is how it looks like:
 You should use `url` parameter only if you need to embed different bots as containers on your website.
 
 If your bot appears to have a small height like this:
-<img src="/img/embeddings/wp-small-container.png" width="600" alt="WP plugin preview"/>
+<img src="/img/embeddings/wp-small-container.webp" width="600" alt="WP plugin preview"/>
 
 you need to set a fixed `height` in pixel (`500px` or `600px` is usually a great number).
 
@@ -54,11 +54,11 @@ Here is an example for a bubble config:
 ```html
 <script
   type="text/javascript"
-  src="https://static.typebot.io/typebot-1.0.0.js"
+  src="https://bot.autorepl.com/autorepl-1.0.0.js"
 ></script>
 
 <script>
-  const typebot = Typebot.Chat({
+  const autorepl = AutoRepl.Chat({
     publishId: 'exemple-lead-gen',
     buttonColor: '#0042DA',
     buttonIconUrl: '',
@@ -77,7 +77,7 @@ You can leverage the [hidden variables](/editor/variables#hidden-variables) and 
 
 Here are the available variables from WordPress, make sure to create them in your bot's variables dropdown:
 
-<img src="/img/embeddings/wp-variables.png" alt="WP predefined variables" width="400px"/>
+<img src="/img/embeddings/wp-variables.webp" alt="WP predefined variables" width="400px"/>
 
 You can use these variables anywhere on your bot. For more informations, check out the [Hidden variables doc](https://docs.autorepl.com/editor/variables/hidden-variables)
 
@@ -91,9 +91,9 @@ For WP Rocket:
 
 1. Go to Settings > WP Rocket > Excluded Inline Javascript:
 
-<img src="/img/embeddings/wp-rocket.png" width="600" alt="WP plugin preview"/>
+<img src="/img/embeddings/wp-rocket.webp" width="600" alt="WP plugin preview"/>
 
-2. Type "typebot"
+2. Type "autorepl"
 3. Save
 
 ### You have plugin that adds `defer` attribute to external scripts

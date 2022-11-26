@@ -9,7 +9,7 @@ The Zapier integration block allows you to trigger a zap at a given moment in yo
 1. Insert a Zapier block where you want to trigger the Zap:
 
 <img
-    src="/img/blocks/integrations/zapier.png"
+    src="/img/blocks/integrations/zapier.webp"
     width="600"
     alt="Zapier block"
   />

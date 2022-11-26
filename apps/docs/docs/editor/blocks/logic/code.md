@@ -4,7 +4,7 @@ The "Code" block allows you to execute Javascript code. If you want to set a var
 
 **It doesn't allow you to create a custom visual block**
 
-<img src="/img/blocks/logic/code.png" width="600" alt="Code block"/>
+<img src="/img/blocks/logic/code.webp" width="600" alt="Code block"/>
 
 ## Examples
 

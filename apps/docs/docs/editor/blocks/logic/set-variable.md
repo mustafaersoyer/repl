@@ -6,7 +6,7 @@ sidebar_position: 1
 
 The "Set variable" block allows you to set a particular value to a variable.
 
-<img src="/img/blocks/logic/set-variable.png" width="600" alt="Set variable"/>
+<img src="/img/blocks/logic/set-variable.webp" width="600" alt="Set variable"/>
 
 This value can be any kind of plain text but also **Javascript code**.
 

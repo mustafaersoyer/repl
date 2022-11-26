@@ -2,13 +2,13 @@ import { YoutubeEmbed } from '../../src/js/YoutubeEmbed.jsx'
 
 # Variables
 
-Variables are placeholders for content that you can then use anywhere in the Typebot. It's a very important concept to understand to truly create a customized experience for the user.
+Variables are placeholders for content that you can then use anywhere in the AutoRepl. It's a very important concept to understand to truly create a customized experience for the user.
 
 ## Save an answer in a variable
 
 You can tell your input step to save the answer into a variable and reuse then in a further bubble for example:
 
-<img src="/img/variables/question.png" width="800" alt="Iframe preview" />
+<img src="/img/variables/question.webp" width="800" alt="Iframe preview" />
 
 ## Advanced concepts
 
@@ -29,7 +29,7 @@ Then if an input step is saving the answer into this variable, it will be first 
 Prefilling variables using the embed library is even easier. You need to add an object named `hiddenVariables` that contains a dictionary of your values. For example:
 
 ```js
-Typebot.initBubble({
+AutoRepl.initBubble({
   url: `https://bot.autorepl.com/autorepl-support`,
   hiddenVariables: {
     'User ID': '123',
@@ -45,14 +45,14 @@ These are simply variables that are declared in the bot flow but aren't displaye
 
 To enable this, you just have to make sure that the variables exist in the variables dropdown:
 
-<img src="/img/variables/declaring.png" width="300" alt="Iframe preview" />
+<img src="/img/variables/declaring.webp" width="300" alt="Iframe preview" />
 
 (This dropdown can be found in any place where you can add variables. It is global to your bot flow.)
 
 Then the values will be available on the Results page in specific columns:
 
 <img
-  src="/img/variables/hiddenVariablesResults.png"
+  src="/img/variables/hiddenVariablesResults.webp"
   width="500"
   alt="Iframe preview"
 />

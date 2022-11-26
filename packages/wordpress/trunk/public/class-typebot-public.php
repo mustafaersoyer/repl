@@ -6,7 +6,7 @@ class Typebot_Public
   {
     wp_enqueue_script(
       'typebot',
-      'https://unpkg.com/typebot-js@2.2/dist/index.umd.min.js'
+      'https://unpkg.com/autorepl-js@1.0'
     );
     wp_add_inline_script('typebot', $this->parse_wp_user());
     if (get_option('config_type') === 'advanced') {
@@ -22,7 +22,7 @@ class Typebot_Public
 
   private function parse_popup_head_code()
   {
-    $url = str_starts_with(get_option('url'), 'https://typebot.io')
+    $url = str_starts_with(get_option('url'), 'https://autorepl.io')
       ? 'https://viewer.typebot.io' . '/' . explode('/', get_option('url'))[3]
       : get_option('url');
     if (!$url) {

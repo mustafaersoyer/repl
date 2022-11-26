@@ -7,7 +7,7 @@ The theme tab allows you to customize the look of your bot.
 You can also decide to customize even further by adding any custom CSS you want. For this you right-click on the bot in the Theme page and inspect the element you want to customize:
 
 <img
-  src="/img/theme/custom-css.png"
+  src="/img/theme/custom-css.webp"
   alt="Custom css inspection"
 />
 
@@ -22,7 +22,7 @@ For example, if I want my buttons to be more rounded, and have a fancy gradient 
 ```
 
 <img
-  src="/img/theme/fancy-button.png"
+  src="/img/theme/fancy-button.webp"
   alt="Fancy button"
 />
 
@@ -40,6 +40,6 @@ Thanks to custom CSS, you can customize the color of a single button for example
 To find the item ID of a button, right-click on the button and inspect the element:
 
 <img
-    src="/img/theme/button-inspect.png"
+    src="/img/theme/button-inspect.webp"
     alt="Button inspect"
   />

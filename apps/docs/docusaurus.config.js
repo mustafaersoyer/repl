@@ -13,7 +13,7 @@ module.exports = {
       title: 'AutoRepl',
       logo: {
         alt: 'AutoRepl Logo',
-        src: 'img/logo.png',
+        src: 'img/logo.webp',
       },
       items: [],
     },
@@ -37,12 +37,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Facebook',
-              href: 'asd',
+              label: 'Twitter',
+              href: 'https://twitter.com/getautorepl',
             },
             {
-              label: 'Twitter',
-              href: 'asd',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/autorepl/?viewAsMember=true',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/getautorepl/',
             },
           ],
         },

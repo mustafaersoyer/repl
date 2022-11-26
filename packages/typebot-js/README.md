@@ -7,7 +7,7 @@ Frontend library to embed typebots from [Typebot](https://www.typebot.io/).
 To install, simply run:
 
 ```bash
-npm install typebot-js
+npm install autorepl-js
 ```
 
 ## Usage
@@ -20,14 +20,14 @@ initPopup()
 initBubble()
 ```
 
-You can configure them directly in the "Share" tab of your typebot.
+You can configure them directly in the "Share" tab of your bot.
 
 Example:
 
 ```ts
-import { initContainer } from 'typebot-js'
+import { initContainer } from 'autorepl-js'
 
-const plausible = initContainer('container-id', {
+const autorepl = initContainer('container-id', {
   publishId: 'my-app.com',
 })
 ```
