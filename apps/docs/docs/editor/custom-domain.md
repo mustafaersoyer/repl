@@ -3,7 +3,7 @@
 You can bind a custom domain to your bot in the "Share" tab.
 
 <img
-  src="/img/custom-domain/add-domain.webp"
+  src="/img/custom-domain/add-domain.jpg"
   width="700"
   alt="Add my domain button"
 />

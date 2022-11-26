@@ -24,4 +24,4 @@ Embeds the bot in a Popup that overlays your website. It can be triggered after 
 
 Embeds the bot as a "chat bubble" at the bottom right corner of your site. Can be triggered automatically or with a click. It can also come with a "proactive message".
 
-<img src="/img/embeddings/bubble1.webp" alt="Bubble 1" width="600px"/>
+<img src="/img/embeddings/bubble1.jpg" alt="Bubble 1" width="600px"/>
